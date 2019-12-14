@@ -1,0 +1,112 @@
+@charset UTF-8;
+
+.hotokeBg {
+display: none;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: rgba(255,255,255,.8);
+z-index: 9000;
+}
+
+.hotokeBg .hotokeShout {
+width: 100%;
+position: absolute;
+top: 50px;
+left: 0;
+text-align: center;
+}
+
+.hotokeBg .hotokeShout span {
+padding: 10px;
+position: relative;
+border: 3px solid #eee;
+border-radius: 4px;
+background: #fff;
+}
+
+.hotokeBg .hotokeShout span:before {
+content: "";
+display: block;
+margin-left: -15px;
+width: 0;
+height: 0;
+position: absolute;
+top: -20px;
+left: 50%;
+border-style: solid;
+border-width: 0 15px 20px 15px;
+border-color: transparent transparent #eeeeee transparent;
+}
+
+.hotokeBg .hotokeShout span:after {
+content: "";
+display: block;
+margin-left: -15px;
+width: 0;
+height: 0;
+position: absolute;
+top: -16px;
+left: 50%;
+border-style: solid;
+border-width: 0 15px 20px 15px;
+border-color: transparent transparent #ffffff transparent;
+}
+
+.hotokeBg .hotokeShout .hotokeShoutBtn {
+display: block;
+margin: 25px auto 0;
+width: 8em;
+padding: 5px 10px;
+border: 4px solid #EEEEEE;
+border-radius: 2px;
+background: #000000;
+color: #ffffff;
+cursor: pointer;
+}
+
+.hotokeBg .hotokeBody {
+text-align: center;
+}
+
+.hotokeBg .hotokeBody .hotokeTalk {
+display: block;
+margin: 15px 10px 10px;
+padding: 3px 5px;
+position: relative;
+border: 3px solid #EEEEEE;
+background-color: #fff;
+text-align: center;
+}
+
+.hotokeBg .hotokeBody .hotokeTalk:before {
+content: "";
+display: block;
+margin-left: -15px;
+width: 0;
+height: 0;
+position: absolute;
+top: -20px;
+left: 50%;
+border-style: solid;
+border-width: 0 15px 20px 15px;
+border-color: transparent transparent #eeeeee transparent;
+}
+
+.hotokeBg .hotokeBody .hotokeTalk:after {
+content: "";
+display: block;
+margin-left: -15px;
+width: 0;
+height: 0;
+position: absolute;
+top: -16px;
+left: 50%;
+border-style: solid;
+border-width: 0 15px 20px 15px;
+border-color: transparent transparent #ffffff transparent;
+}
+
+
